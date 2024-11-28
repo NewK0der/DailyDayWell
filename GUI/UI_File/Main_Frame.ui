@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Toplevel" id="toplevel_1">
+    <property name="background">#dddddd</property>
+    <property name="height">750</property>
+    <property name="overrideredirect">false</property>
+    <property name="width">1400</property>
+    <child>
+      <object class="tk.Frame" id="SIDE_BAR_FRAME" named="True">
+        <property name="background">#ffffff</property>
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">750</property>
+          <property name="width">230</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="tk.Label" id="label_1">
+            <property name="image">logo.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">20</property>
+              <property name="width">217</property>
+              <property name="x">10</property>
+              <property name="y">10</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_4">
+            <property name="font">TkDefaultFont</property>
+            <property name="image">grocery_logo1.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">36</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">200</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_5">
+            <property name="font">TkDefaultFont</property>
+            <property name="image">medicine_logo.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">40</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">300</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_6">
+            <property name="font">TkDefaultFont</property>
+            <property name="image">bill_logo.png</property>
+            <property name="justify">left</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">40</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">400</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_7">
+            <property name="font">TkTextFont</property>
+            <property name="image">schedule_logo.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">40</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">500</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_8">
+            <property name="cursor">arrow</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="image">setting_logo.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">40</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">600</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="grocery_button" named="True">
+            <property name="background">#ffffff</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="justify">left</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Grocery Manage</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">120</property>
+              <property name="x">55</property>
+              <property name="y">200</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="medicine_button" named="True">
+            <property name="background">#ffffff</property>
+            <property name="compound">top</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="justify">center</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Medicine Manage</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">120</property>
+              <property name="x">55</property>
+              <property name="y">300</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="bill_button" named="True">
+            <property name="background">#ffffff</property>
+            <property name="cursor">arrow</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="justify">left</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Bill Manage</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">90</property>
+              <property name="x">55</property>
+              <property name="y">400</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="schedule_button" named="True">
+            <property name="background">#ffffff</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="justify">left</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Schedule Manage</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">125</property>
+              <property name="x">55</property>
+              <property name="y">500</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="setting_button" named="True">
+            <property name="background">#ffffff</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 14 {bold}</property>
+            <property name="justify">left</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Setting</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">70</property>
+              <property name="x">55</property>
+              <property name="y">600</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="button_1" named="True">
+            <property name="background">#ffffff</property>
+            <property name="default">normal</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="justify">center</property>
+            <property name="overrelief">flat</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Dashboard</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">30</property>
+              <property name="width">80</property>
+              <property name="x">55</property>
+              <property name="y">100</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_9">
+            <property name="compound">top</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="image">dashboard_logo.png</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <property name="takefocus">false</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">36</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">100</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="TOP_BAR_FRAME" named="True">
+        <property name="background">#ffffff</property>
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">40</property>
+          <property name="width">1170</property>
+          <property name="x">230</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="tk.Label" id="label_15">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 25 {}</property>
+            <property name="justify">center</property>
+            <property name="state">normal</property>
+            <property name="text" translatable="yes">👋🏼</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">35</property>
+              <property name="width">40</property>
+              <property name="x">10</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="user_name_label" named="True">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 12 {bold}</property>
+            <property name="foreground">#000000</property>
+            <property name="justify">center</property>
+            <property name="relief">flat</property>
+            <property name="state">disabled</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">35</property>
+              <property name="width">250</property>
+              <property name="x">55</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

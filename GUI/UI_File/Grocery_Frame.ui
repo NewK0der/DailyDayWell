@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Frame" id="BUY_ITEM_FRAME" named="True">
+    <property name="background">#ffffff</property>
+    <property name="height">550</property>
+    <property name="width">550</property>
+    <layout manager="place">
+      <property name="anchor">nw</property>
+      <property name="height">550</property>
+      <property name="width">550</property>
+      <property name="x">0</property>
+      <property name="y">0</property>
+    </layout>
+    <child>
+      <object class="ttk.Combobox" id="combobox_1">
+        <property name="state">readonly</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">50</property>
+          <property name="y">70</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="categoty" named="True">
+        <property name="state">readonly</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">50</property>
+          <property name="y">255</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="member" named="True">
+        <property name="state">readonly</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">300</property>
+          <property name="y">255</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_8">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Product Name *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">100</property>
+          <property name="x">50</property>
+          <property name="y">50</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_1">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Brand</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">40</property>
+          <property name="x">300</property>
+          <property name="y">50</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="brand" named="True">
+        <property name="font">{Calibri} 12 {}</property>
+        <property name="selectborderwidth">5</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">300</property>
+          <property name="y">70</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_2">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Description</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">75</property>
+          <property name="x">50</property>
+          <property name="y">120</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Text" id="description" named="True">
+        <property name="height">10</property>
+        <property name="width">50</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">75</property>
+          <property name="width">400</property>
+          <property name="x">50</property>
+          <property name="y">140</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_3">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Category *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">70</property>
+          <property name="x">50</property>
+          <property name="y">235</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_4">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Member *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">65</property>
+          <property name="x">300</property>
+          <property name="y">235</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_5">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Quantity *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">65</property>
+          <property name="x">50</property>
+          <property name="y">305</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_6">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Price *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">40</property>
+          <property name="x">300</property>
+          <property name="y">305</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Spinbox" id="quantity" named="True">
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">30</property>
+          <property name="width">70</property>
+          <property name="x">50</property>
+          <property name="y">325</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="unit" named="True">
+        <property name="state">readonly</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">30</property>
+          <property name="width">80</property>
+          <property name="x">125</property>
+          <property name="y">325</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="price" named="True">
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">300</property>
+          <property name="y">325</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_7">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Purches Date *</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">90</property>
+          <property name="x">50</property>
+          <property name="y">375</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_9">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Exp. Date</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">60</property>
+          <property name="x">300</property>
+          <property name="y">375</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="exp" named="True">
+        <property name="borderwidth">1</property>
+        <property name="font">{Calibri} 12 {}</property>
+        <property name="selectborderwidth">5</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">300</property>
+          <property name="y">395</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="purchesdate" named="True">
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">50</property>
+          <property name="y">395</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_" named="True">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Shop Name</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">75</property>
+          <property name="x">50</property>
+          <property name="y">445</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_10" named="True">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="text" translatable="yes">Discount</property>
+        <layout manager="place">
+          <property name="height">20</property>
+          <property name="width">60</property>
+          <property name="x">300</property>
+          <property name="y">445</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="shop" named="True">
+        <property name="borderwidth">1</property>
+        <property name="font">{Calibri} 12 {}</property>
+        <property name="selectborderwidth">5</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">50</property>
+          <property name="y">465</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="discount" named="True">
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">outside</property>
+          <property name="height">30</property>
+          <property name="width">150</property>
+          <property name="x">300</property>
+          <property name="y">465</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

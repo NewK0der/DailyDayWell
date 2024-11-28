@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Frame" id="LOGIN_FRAME" named="True">
+    <property name="background">#ffffff</property>
+    <property name="borderwidth">0</property>
+    <property name="height">600</property>
+    <property name="relief">ridge</property>
+    <property name="width">800</property>
+    <layout manager="place">
+      <property name="anchor">nw</property>
+      <property name="bordermode">ignore</property>
+      <property name="height">600</property>
+      <property name="width">800</property>
+      <property name="y">0</property>
+    </layout>
+    <containerlayout manager="grid">
+      <property name="anchor">n</property>
+    </containerlayout>
+    <child>
+      <object class="tk.Label" id="label_1">
+        <property name="anchor">n</property>
+        <property name="background">#ffffff</property>
+        <property name="compound">top</property>
+        <property name="font">TkTextFont</property>
+        <property name="image">login_image.png</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">500</property>
+          <property name="width">300</property>
+          <property name="x">450</property>
+          <property name="y">50</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_2">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 36 {bold}</property>
+        <property name="text" translatable="yes">Login</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">55</property>
+          <property name="width">110</property>
+          <property name="x">50</property>
+          <property name="y">100</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_3">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri} 11 {}</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">Login to access your account.</property>
+        <layout manager="place">
+          <property name="width">180</property>
+          <property name="x">50</property>
+          <property name="y">160</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_11">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">140</property>
+          <property name="x">50</property>
+          <property name="y">220</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_12">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">180</property>
+          <property name="x">240</property>
+          <property name="y">220</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_13">
+        <property name="orient">vertical</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">50</property>
+          <property name="width">1</property>
+          <property name="x">50</property>
+          <property name="y">220</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_14">
+        <property name="orient">vertical</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">50</property>
+          <property name="width">1</property>
+          <property name="x">420</property>
+          <property name="y">220</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_15">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">370</property>
+          <property name="x">50</property>
+          <property name="y">270</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="email" named="True">
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">ignore</property>
+          <property name="height">35</property>
+          <property name="width">350</property>
+          <property name="x">60</property>
+          <property name="y">230</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_8">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="cursor">arrow</property>
+        <property name="font">{Calibri} 14 {bold}</property>
+        <property name="relief">raised</property>
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">Email</property>
+        <layout manager="place">
+          <property name="height">30</property>
+          <property name="width">50</property>
+          <property name="x">190</property>
+          <property name="y">205</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="login_button" named="True">
+        <property name="background">#515DEF</property>
+        <property name="borderwidth">0</property>
+        <property name="compound">top</property>
+        <property name="cursor">hand2</property>
+        <property name="default">active</property>
+        <property name="font">{Calibri} 16 {bold}</property>
+        <property name="foreground">#ffffff</property>
+        <property name="overrelief">sunken</property>
+        <property name="text" translatable="yes">Login</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">40</property>
+          <property name="width">370</property>
+          <property name="x">50</property>
+          <property name="y">380</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_9">
+        <property name="background">#ffffff</property>
+        <property name="font">{Calibri Light} 11 {bold}</property>
+        <property name="relief">flat</property>
+        <property name="state">normal</property>
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">Don't have an account ?</property>
+        <layout manager="place">
+          <property name="height">25</property>
+          <property name="width">170</property>
+          <property name="x">130</property>
+          <property name="y">460</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="sign_up_button" named="True">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="cursor">hand2</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="foreground">#FB610A</property>
+        <property name="overrelief">raised</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">Sign up</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">25</property>
+          <property name="width">50</property>
+          <property name="x">305</property>
+          <property name="y">460</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_1">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">140</property>
+          <property name="x">50</property>
+          <property name="y">300</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_2">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">180</property>
+          <property name="x">240</property>
+          <property name="y">300</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_3">
+        <property name="orient">vertical</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">50</property>
+          <property name="width">1</property>
+          <property name="x">50</property>
+          <property name="y">300</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_4">
+        <property name="orient">vertical</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">50</property>
+          <property name="width">1</property>
+          <property name="x">420</property>
+          <property name="y">300</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Separator" id="separator_5">
+        <property name="orient">horizontal</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">1</property>
+          <property name="width">370</property>
+          <property name="x">50</property>
+          <property name="y">350</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="password" named="True">
+        <property name="borderwidth">0</property>
+        <property name="font">{Calibri} 12 {}</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">ignore</property>
+          <property name="height">35</property>
+          <property name="width">350</property>
+          <property name="x">60</property>
+          <property name="y">310</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_4">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="cursor">arrow</property>
+        <property name="font">{Calibri} 14 {bold}</property>
+        <property name="justify">left</property>
+        <property name="relief">raised</property>
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">Password</property>
+        <layout manager="place">
+          <property name="height">30</property>
+          <property name="width">80</property>
+          <property name="x">190</property>
+          <property name="y">285</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="forget_password" named="True">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="cursor">hand2</property>
+        <property name="font">{Calibri} 11 {bold}</property>
+        <property name="foreground">#FB610A</property>
+        <property name="justify">left</property>
+        <property name="overrelief">raised</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">Forget password ?</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">20</property>
+          <property name="width">120</property>
+          <property name="x">50</property>
+          <property name="y">425</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label_6">
+        <property name="anchor">n</property>
+        <property name="background">#ffffff</property>
+        <property name="compound">top</property>
+        <property name="cursor">arrow</property>
+        <property name="font">TkDefaultFont</property>
+        <property name="image">logo.png</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">20</property>
+          <property name="width">217</property>
+          <property name="x">10</property>
+          <property name="y">10</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

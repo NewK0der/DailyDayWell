@@ -1,0 +1,5 @@
+cur.execute('Create table if not exists User_Details(Name varchar(30) not null, Number varchar(10) unique not null, Email varchar(30) primary key, Password varchar(30) not null);')
+cur.execute('insert into User_Details values("{}","{}","{}","{}");'.format(self.name.get(), self.number.get(), self.email.get(), self.password.get()))            
+cur.execute('Create table if not exists {}( Product_Name varchar(30) not null, Category varchar(30) not null, Description varchar(200);')
+cur.execute('Create table if not exists {}( Category varchar(30) not null, Member varchar(30) not null, Product_Name varchar(30), Brand varchar(30), Description varchar(200), Quantity integer not null, Unit varchar(10) not null, Price integer not null, Purches_Date date not null, Exp_Date date, Shop varchar(30), Discount integer);')
+con.commit()

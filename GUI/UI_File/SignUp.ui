@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Toplevel" id="toplevel_1">
+    <property name="height">600</property>
+    <property name="resizable">both</property>
+    <property name="width">800</property>
+    <child>
+      <object class="tk.Frame" id="SIGN_UP" named="True">
+        <property name="background">#ffffff</property>
+        <property name="borderwidth">0</property>
+        <property name="container">false</property>
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="bordermode">ignore</property>
+          <property name="height">600</property>
+          <property name="width">800</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="tk.Label" id="label_1">
+            <property name="anchor">n</property>
+            <property name="background">#ffffff</property>
+            <property name="compound">top</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="image">signin_image.png</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">500</property>
+              <property name="width">300</property>
+              <property name="x">50</property>
+              <property name="y">50</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_2">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 36 {bold}</property>
+            <property name="text" translatable="yes">Sign up</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">55</property>
+              <property name="width">150</property>
+              <property name="x">400</property>
+              <property name="y">50</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_3">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 11 {}</property>
+            <property name="text" translatable="yes">Let’s get you all st up so you can access your personal account.</property>
+            <layout manager="place">
+              <property name="width">380</property>
+              <property name="x">400</property>
+              <property name="y">110</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_4">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 14 {bold}</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Full Name</property>
+            <layout manager="place">
+              <property name="height">30</property>
+              <property name="width">100</property>
+              <property name="x">540</property>
+              <property name="y">150</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_1">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">140</property>
+              <property name="x">400</property>
+              <property name="y">165</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_2">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">150</property>
+              <property name="x">640</property>
+              <property name="y">165</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_3">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">400</property>
+              <property name="y">165</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_4">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">790</property>
+              <property name="y">165</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_5">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">390</property>
+              <property name="x">400</property>
+              <property name="y">215</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="name" named="True">
+            <property name="borderwidth">0</property>
+            <property name="font">{Calibri} 12 {}</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="bordermode">ignore</property>
+              <property name="height">35</property>
+              <property name="width">370</property>
+              <property name="x">410</property>
+              <property name="y">175</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_5">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 16 {bold}</property>
+            <property name="justify">left</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Phone Number</property>
+            <layout manager="place">
+              <property name="height">30</property>
+              <property name="width">140</property>
+              <property name="x">530</property>
+              <property name="y">225</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_6">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">130</property>
+              <property name="x">400</property>
+              <property name="y">240</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_7">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">120</property>
+              <property name="x">670</property>
+              <property name="y">240</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_8">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">400</property>
+              <property name="y">240</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_9">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">790</property>
+              <property name="y">240</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_10">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">390</property>
+              <property name="x">400</property>
+              <property name="y">290</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="number" named="True">
+            <property name="borderwidth">0</property>
+            <property name="font">{Calibri} 12 {}</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="bordermode">ignore</property>
+              <property name="height">35</property>
+              <property name="width">370</property>
+              <property name="x">410</property>
+              <property name="y">250</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_11">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">165</property>
+              <property name="x">400</property>
+              <property name="y">315</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_12">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">180</property>
+              <property name="x">610</property>
+              <property name="y">315</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_13">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">400</property>
+              <property name="y">315</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_14">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">790</property>
+              <property name="y">315</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_15">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">390</property>
+              <property name="x">400</property>
+              <property name="y">365</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="password" named="True">
+            <property name="borderwidth">0</property>
+            <property name="font">{Calibri} 12 {}</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="bordermode">ignore</property>
+              <property name="height">35</property>
+              <property name="width">370</property>
+              <property name="x">410</property>
+              <property name="y">325</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_7">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 16 {bold}</property>
+            <property name="justify">left</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Password</property>
+            <layout manager="place">
+              <property name="height">30</property>
+              <property name="width">80</property>
+              <property name="x">550</property>
+              <property name="y">375</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_16">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">140</property>
+              <property name="x">400</property>
+              <property name="y">390</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_17">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">150</property>
+              <property name="x">640</property>
+              <property name="y">390</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_18">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">400</property>
+              <property name="y">390</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_19">
+            <property name="orient">vertical</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">50</property>
+              <property name="width">1</property>
+              <property name="x">790</property>
+              <property name="y">390</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Separator" id="separator_20">
+            <property name="orient">horizontal</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">1</property>
+              <property name="width">390</property>
+              <property name="x">400</property>
+              <property name="y">440</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="cnfrm_password" named="True">
+            <property name="borderwidth">0</property>
+            <property name="font">{Calibri} 12 {}</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="bordermode">ignore</property>
+              <property name="height">35</property>
+              <property name="width">370</property>
+              <property name="x">410</property>
+              <property name="y">400</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_8">
+            <property name="background">#ffffff</property>
+            <property name="borderwidth">0</property>
+            <property name="cursor">arrow</property>
+            <property name="font">{Calibri} 14 {bold}</property>
+            <property name="relief">raised</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Email</property>
+            <layout manager="place">
+              <property name="height">30</property>
+              <property name="width">50</property>
+              <property name="x">570</property>
+              <property name="y">300</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="submit" named="True">
+            <property name="background">#515DEF</property>
+            <property name="borderwidth">0</property>
+            <property name="compound">top</property>
+            <property name="cursor">hand2</property>
+            <property name="default">normal</property>
+            <property name="font">{Bahnschrift SemiLight SemiConde} 16 {bold}</property>
+            <property name="foreground">#ffffff</property>
+            <property name="overrelief">flat</property>
+            <property name="text" translatable="yes">Create Account</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">40</property>
+              <property name="width">390</property>
+              <property name="x">400</property>
+              <property name="y">460</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="label_9">
+            <property name="background">#ffffff</property>
+            <property name="font">{Calibri} 11 {bold}</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Already have an account ?</property>
+            <layout manager="place">
+              <property name="height">25</property>
+              <property name="width">160</property>
+              <property name="x">500</property>
+              <property name="y">510</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="login" named="True">
+            <property name="background">#ffffff</property>
+            <property name="borderwidth">0</property>
+            <property name="cursor">hand2</property>
+            <property name="font">{Calibri} 11 {bold}</property>
+            <property name="foreground">#FB610A</property>
+            <property name="overrelief">flat</property>
+            <property name="text" translatable="yes">Login</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">25</property>
+              <property name="width">35</property>
+              <property name="x">665</property>
+              <property name="y">510</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
